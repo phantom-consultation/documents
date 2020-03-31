@@ -14,20 +14,20 @@ iframe {
   height: 100%;
 }
     </style>
-    <script type="text/javascript">
-let loaded = false;
-document.getElementById("form").onload = () => {
-
-  if (loaded) {
-    document.location = "https://docs.google.com/document/d/1RqOYJe7nkXDD8mLnhFY1z9WFha-AjwTK7qavq9dPvW4/edit?usp=sharing";
-  }
-  loaded = true;
-};
-    </script>
   </head>
   <body>
     <iframe id="form" src="https://docs.google.com/forms/d/e/1FAIpQLSe-c13k5nKwK18eU09WUmjmcKMdh1HPZUfvQAtowQ5YS--DaQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">
       読み込んでいます…
     </iframe>
+    <script type="text/javascript">
+      let loaded = false;
+      document.getElementById("form").onload = () => {
+      
+        if (loaded) {
+          document.location = "https://docs.google.com/document/d/1RqOYJe7nkXDD8mLnhFY1z9WFha-AjwTK7qavq9dPvW4/edit?usp=sharing";
+        }
+        loaded = true;
+      };
+      </script>
   </body>
 </html>
